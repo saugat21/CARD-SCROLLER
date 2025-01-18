@@ -9,7 +9,7 @@ function updateCards() {
         } else if (index === (currentIndex - 1 + cards.length) % cards.length) {
             card.classList.add('above');
         } else if (index === (currentIndex + 1) % cards.length) {
-            card.classList.add('belo');
+            card.classList.add('below');
         } else {
             card.classList.add('hidden');
         }
